@@ -1,0 +1,2 @@
+/Users/stephanegarnier/Projects/wakloginpassprofile/POCLoginPasswordRecovery/mobile/platforms/android/build/intermediates/classes/debug
+/Users/stephanegarnier/Projects/wakloginpassprofile/POCLoginPasswordRecovery/mobile/platforms/android/build/intermediates/pre-dexed/debug/classes-f92d5137824bbb605c91dac9b0de6dd168062902.jar

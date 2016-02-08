@@ -1,0 +1,23 @@
+<ion-view view-title="Login | Wak Manager">
+  <ion-content>
+    <form name="logForm" ng-submit="logForm.$valid && login()">
+    <div class="list">
+        <label class="item item-input">
+          <span ng-class="{'input-label': !logForm.userId.$error.pattern, 'input-label assertive': logForm.userId.$error.pattern}">Username</span>
+          <input type="text" name="userId" placeholder="Email" ng-model="user.Id"  ng-pattern="/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}$/" required>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Password</span>
+          <input ng-model="user.Password" type="password" name="password" placeholder="Password" required>
+        </label>
+    </div>
+    <div class="padding">
+        <button type="submit" class="button button-block button-positive">
+          Login
+        </button>
+        <p ng-show="errorLogMessage != ''" class="text-center" style="color:red;font-weight:bold;">
+          <strong>NOTE</strong>: {{errorLogMessage}}
+        </p>
+    </div>
+    </form>
+  </ion-content>

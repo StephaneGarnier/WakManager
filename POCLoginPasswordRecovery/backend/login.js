@@ -1,0 +1,1 @@
+directory.setLoginListener("loginFunc", "Admin");

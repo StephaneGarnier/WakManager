@@ -1,0 +1,26 @@
+{
+	"name": "POCLoginPasswordRecovery/index.waPage/index.html",
+	"type": "page",
+	"version": "1.0.0",
+	"loadDependencies": [
+		{
+			"id": "Desktop_Core",
+			"version": "1.0.0",
+			"type": "core"
+		},
+		{
+			"id": "Widget/dataGrid",
+			"type": "widget"
+		},
+		{
+			"package": "default"
+		},
+		{
+			"file": "styles/index.css"
+		},
+		{
+			"file": "prototype/application.css",
+			"path": "WEBFOLDER"
+		}
+	]
+}

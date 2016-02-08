@@ -1,0 +1,147 @@
+{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"Users": {
+				"panelColor": "#548DD4",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 102,
+						"Y": 20
+					}
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0,
+			"lastScriptLocation": {
+				"Users": {
+					"computed": "Users/Users-events.js",
+					"method": "Users/Users-methods.js"
+				}
+			}
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Users",
+			"className": "Users",
+			"collectionName": "UsersCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"autogenerate": true,
+					"type": "uuid",
+					"primKey": true
+				},
+				{
+					"name": "email",
+					"kind": "storage",
+					"matchColumn": "Email,Login",
+					"scope": "public",
+					"unique": true,
+					"type": "string"
+				},
+				{
+					"name": "password",
+					"kind": "storage",
+					"matchColumn": "Password",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "firstname",
+					"kind": "storage",
+					"matchColumn": "Firstname",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "lastname",
+					"kind": "storage",
+					"matchColumn": "Lastname",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "fullname",
+					"kind": "calculated",
+					"matchColumn": "Fullname",
+					"scope": "public",
+					"type": "string",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Users.fullname.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "role",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "country",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "resetID",
+					"kind": "storage",
+					"scope": "public",
+					"type": "uuid"
+				},
+				{
+					"name": "photo",
+					"kind": "storage",
+					"scope": "public",
+					"type": "image"
+				}
+			],
+			"methods": [
+				{
+					"name": "changePassword",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Users.methods.changePassword",
+					"userDefined": true
+				},
+				{
+					"name": "create",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Users.methods.create",
+					"userDefined": true
+				},
+				{
+					"name": "edit",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Users.methods.edit",
+					"userDefined": true
+				},
+				{
+					"name": "lostPassword",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Users.methods.lostPassword",
+					"userDefined": true
+				}
+			]
+		}
+	]
+}

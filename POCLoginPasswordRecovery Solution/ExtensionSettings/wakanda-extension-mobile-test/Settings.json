@@ -1,0 +1,12 @@
+﻿{
+	"browserPreview": "true",
+	"studioPreview": "false",
+	"androidTest": "true",
+	"iosTest": "true",
+	"androidEmulate": "false",
+	"iosEmulate": "true",
+	"androidBuild": "false",
+	"iosBuild": "true",
+	"webStudioPreview": "false",
+	"webBrowserPreview": "true"
+}
