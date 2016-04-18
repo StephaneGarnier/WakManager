@@ -3,8 +3,8 @@ angular.module('starter').
     controller('LoginController', ['$rootScope', '$scope', '$wakanda', '$state', function ($rootScope, $scope, $wakanda, $state) {
 
         $scope.isLoging = false;
-        $scope.userId = "";
-        $scope.userPassword = "";
+        $scope.userId = "john@test.fr";
+        $scope.userPassword = "john";
         $scope.errorMessage = "";
         $scope.errorLogMessage = "";
 
