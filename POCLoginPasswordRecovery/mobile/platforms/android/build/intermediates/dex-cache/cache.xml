@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/stephanegarnier/Projects/wakloginpassprofile/POCLoginPasswordRecovery/mobile/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jar="/Users/stephanegarnier/Projects/WakManager/POCLoginPasswordRecovery/mobile/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="f4734c9885434470aae9af032163c687dd6408c5">
-        <dex dex="/Users/stephanegarnier/Projects/wakloginpassprofile/POCLoginPasswordRecovery/mobile/platforms/android/build/intermediates/pre-dexed/debug/classes-f92d5137824bbb605c91dac9b0de6dd168062902.jar" />
+        revision="23.0.3"
+        sha1="c8605f298293b6eae1f3372cd0cf4003d363867b">
+        <dex dex="/Users/stephanegarnier/Projects/WakManager/POCLoginPasswordRecovery/mobile/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_6fd96015f0644fd43f6ab82382230dd36b166584.jar" />
     </item>
 
 </items>

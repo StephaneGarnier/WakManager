@@ -6,10 +6,10 @@ var gulp = require('gulp'),
 
 var defaultOptions = {
     default: { 
-        serverUrl: 'http://127.0.0.1:8081',
+        serverUrl: 'http://127.0.0.1:8080',
         connectPort: 8000,
-        app: 'app/',
-        output: 'app/',
+        app: '/',
+        output: '/',
     }
 };
 
