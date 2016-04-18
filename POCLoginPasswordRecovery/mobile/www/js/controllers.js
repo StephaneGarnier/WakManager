@@ -54,8 +54,8 @@ angular.module('starter.controllers', [])
 .controller('LoginCtrl', function($rootScope, $scope, $wakanda, $state, WakandaManager) {
     $scope.isLoging = false;
         $scope.user = {
-        	Id : "",
-        	Password : ""
+        	Id : "john@test.fr",
+        	Password : "john"
     	}
         $scope.errorMessage = "";
         $scope.errorLogMessage = "";
